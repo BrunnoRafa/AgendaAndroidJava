@@ -13,7 +13,8 @@
         android:layout_margin="16dp"
         android:src="@drawable/ic_action_novo_aluno"
         android:focusable="true"
-        android:clickable="true" />
+        android:clickable="true"
+        android:contentDescription="@string/todo" />
 
     <ListView
         android:id="@+id/activity_lista_de_alunos_listview"
